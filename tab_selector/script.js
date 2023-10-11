@@ -25,13 +25,13 @@ btn.addEventListener('click',(a)=>{
         btn.style.color='rgb(177, 14, 14)';
         btn.style.backgroundColor='bisque';
         // body_p.textContent="hello";
-        body_head.textContent="Full Stake Developers"
+        body_head.textContent="Full Stack Developers"
         tab2.style.color='aquamarine';
         tab2.style.backgroundColor='black';
         tab1.style.color='aquamarine';
         tab1.style.backgroundColor='black';
         left_box.style.background=`url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6eKxokdpuNIze3uh0yiKxVqAKIRr2JSp_KQ&usqp=CAU')`;
-
+      
     }else{
         btn.style.color='rgb(177, 14, 14)';
         btn.style.backgroundColor='bisque';

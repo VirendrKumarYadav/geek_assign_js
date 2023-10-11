@@ -42,7 +42,7 @@ background-repeat: no-repeat;
     width:196px;
     height: 50px;
     margin:5px 5px 0 5px;
-    border-radius: 5px 5px 0px 0px;
+    /* border-radius: 5px 5px 0px 0px; */
     font-weight: bold;
     border: none;
 }
@@ -65,8 +65,14 @@ background-repeat: no-repeat;
 
 h1{
     margin: 20px;
+     text-shadow: 10px 10px 10px black;
 }
 p{
     line-height: 50px;
     margin: 20px;
+}
+
+button{
+box-shadow: 10px 10px 10px black;
+border-radius: 5px;
 }
