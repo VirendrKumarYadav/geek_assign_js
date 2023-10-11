@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+   
+}
+
+
+.left{
+height: 400px;
+width: 500px;
+border: 2px solid #456784;
+border-radius: 5px;
+background-image: url("https://images.unsplash.com/opengraph/1x1.png?auto=format&fit=crop&w=1200&h=630&q=60&mark-w=64&mark-align=top%2Cleft&mark-pad=50&blend-w=1&mark=https%3A%2F%2Fimages.unsplash.com%2Fopengraph%2Flogo.png&blend=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1555949963-ff9fe0c870eb%3Fcrop%3Dfaces%252Cedges%26cs%3Dtinysrgb%26fit%3Dcrop%26fm%3Djpg%26ixid%3DM3wxMjA3fDB8MXxzZWFyY2h8M3x8ZnJvbnQlMjBlbmQlMjBkZXZlbG9wZXJ8ZW58MHx8fHwxNjk2OTY3MDI0fDA%26ixlib%3Drb-4.0.3%26q%3D60%26w%3D1200%26auto%3Dformat%26h%3D630%26mark-w%3D750%26mark-align%3Dmiddle%252Ccenter%26blend-mode%3Dnormal%26blend-alpha%3D10%26mark%3Dhttps%253A%252F%252Fimages.unsplash.com%252Fopengraph%252Fsearch-input.png%253Fauto%253Dformat%2526fit%253Dcrop%2526w%253D750%2526h%253D84%2526q%253D60%2526txt-color%253D000000%2526txt-size%253D40%2526txt-align%253Dmiddle%25252Cleft%2526txt-pad%253D80%2526txt-width%253D660%2526txt-clip%253Dellipsis%2526txt%253Dfront%252520end%252520developer%26blend%3D000000");
+background-size: 500px 400px;
+transform: rotate(30deg);
+box-shadow: 15px 15px 6px rgba(0, 0, 0, .5);
+background-repeat: no-repeat;
+}
+.left:hover{
+    transition: 1.5s;
+    transform: rotate(0deg);
+}
+.right{
+    height: 400px;
+    width: 620px;
+    border: 4px solid #456784;
+    border-radius: 5px;
+}
+.right-head{
+    display: flex;
+    flex-direction: row;
+}
+.tab1,.tab2,.tab3{
+    width:196px;
+    height: 50px;
+    margin:5px 5px 0 5px;
+    border-radius: 5px 5px 0px 0px;
+    font-weight: bold;
+    border: none;
+}
+.right-body{
+    height: 336px;
+    width: 610px;
+    padding: 5px;
+    /* border: 2px solid #456784; */
+    border-radius: 5px 5px 0 0 ;
+    background-color: bisque;
+}
+.tab1{
+    background-color: bisque;
+    color: rgb(177, 14, 14);
+}
+.tab3,.tab2{
+    background-color: black;
+    color: aquamarine;
+}
+
+h1{
+    margin: 20px;
+}
+p{
+    line-height: 50px;
+    margin: 20px;
+}
