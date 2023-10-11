@@ -1,0 +1,33 @@
+
+body{
+    margin: 0;
+    
+}
+h1{
+    text-align: center;
+    background-color: aliceblue;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+
+}
+.childs{
+    height: 150px;
+    width: 250px;
+    margin: 5px;
+    text-align: center;
+    font-size: 10px;
+    border: 2px solid #050905;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: larger;
+    text-shadow: 2px 0 2px #070d08;
+    box-shadow: 0px 5px 5px rgb(33, 30, 30);
+    border-radius: 5px;
+}
