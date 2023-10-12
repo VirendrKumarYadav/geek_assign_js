@@ -1,22 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
-    <div>
-        <ul>
-          <button>plus</button>
-          <input id="in" type="text" value="0">
-          <button>Minus</button>
-        </ul>
 
-        <textarea name="print_data" id="" cols="30" rows="10" >
-            <div id="print"></div>
-        </textarea>
-        <script src="./script.js"></script>
+<body>
+
+    <div class="bg_img"></div>
+    <div class="container">
+        <div class="tip_box">
+            <h1>Tip Mastery: Your Easy Gratuity Solution</h1>
+
+            <div class="div_amt">
+                Bill Amount
+                <input type="text" name="bill" id="bill_amt" placeholder="Rs">
+            </div>
+
+            <div class="div_tip">
+                Tip Amount
+                <input type="text" name="bill" id="tip_amt" placeholder="Rs">
+            </div>
+            <div class="div_people">
+                 No Of People
+                <input type="text" name="bill" id="noOfPeople" placeholder="No Of People">
+            </div>
+            <div class="buttons">
+                <button>Clear</button>
+                <button>Calculate</button>
+            </div>
+           <div>
+            <div class="div_ttl_tip">
+                Total tip:
+                  <div><span class="total_tip_amt">00</span><span>Rs</span></div>
+            </div>
+            <div class="div_ttl_amt">
+               Total bill:
+                 <div><span class="total_amt">00</span><span>Rs</span></div>
+           </div>
+           </div>
+        </div>
+
+
     </div>
+    <script src="./script.js"></script>
 </body>
+
 </html>

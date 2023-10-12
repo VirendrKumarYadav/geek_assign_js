@@ -23,7 +23,7 @@ background-size: 500px 400px;
 transform: rotate(30deg);
 box-shadow: 15px 15px 6px rgba(0, 0, 0, .5);
 background-repeat: no-repeat;
--webkit-box-reflect: below 5px linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.1));
+-webkit-box-reflect: below 0px linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.1));
 transform: perspective(800px) rotateY(25deg);
 }
 .left:hover{
