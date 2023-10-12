@@ -27,7 +27,7 @@ calculate_btn.addEventListener('click', (a) => {
    tip = (tip * bill);
    tip = tip / 100;
    // console.log(tip);
-   total_tip.textContent = tip / ppl;
+   total_tip.textContent = tip ;
    total_amt.textContent = tip + bill;
 });
 clr_btn.addEventListener('click', () => {
