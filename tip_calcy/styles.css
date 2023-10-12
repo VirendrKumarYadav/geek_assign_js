@@ -33,7 +33,7 @@
 .tip_box{
     height: 80vh;
     width: 40vw;
-    background-color: rgba(11, 102, 181, 0.422);
+    background-color: rgba(10, 74, 108, 0.422);
     border-radius: 5px;
     display: flex;
     flex-direction: column;
