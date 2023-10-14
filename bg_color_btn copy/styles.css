@@ -1,0 +1,19 @@
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh;
+    width: 100vw; */
+    background-color: rgb(160, 183, 59);
+}
+
+button{
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+ button:focus{
+  box-shadow:2px 2px 2px blue;
+}

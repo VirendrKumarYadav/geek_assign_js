@@ -37,5 +37,4 @@ clr_btn.addEventListener('click', () => {
    noOfPpl.value = 0;
    total_tip.textContent = '00';
    total_amt.textContent = '00';
-
 });

@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg_img{
+    height: 100vh;
+    width: 100vw;
+   background-image: url('https://images.pexels.com/photos/259780/pexels-photo-259780.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+   background-repeat: no-repeat;
+   position: relative;  
+   background-size:cover ;
+   filter: blur(5px);
+}
+
+.mouse{
+z-index: 5;
+top: 0px;
+position: absolute;
+}
+
+.mouse>img{
+    transform: scaleX(-1);
+}
+
+.net{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
