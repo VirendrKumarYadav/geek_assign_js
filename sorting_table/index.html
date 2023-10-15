@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting of the Table</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <main>
+      <div class="bg_img"></div>
+        <table>
+            <thead>
+                <h1>Sorting Of Table Data</h1>
+                <tr class="head">
+                    <td>Name</td>
+                    <td>Surname</td>
+                    <td value="1">Roll No</td>
+                    <td value="2">Std</td>
+                    <td>State</td>
+                </tr>
+            </thead>
+            <div class="dropdown">
+            <!-- <label for="">Select Sort: </label> -->
+            <select class="method_sort" id="sort">
+                <option >Select Sort Method</option>
+                <option value="Name">Name</option>
+                <option value="Surname">Surname</option>
+                <option value="Roll No">Roll No</option>
+                <option value="Std">Std</option>
+                <option value="State">State</option>
+            </select>
+        </div>
+            <tbody>
+                <tr>
+                    <td>Rahul</td>
+                    <td>Tiwari</td>
+                    <td>12</td>
+                    <td>2</td>
+                    <td>Uttarkhand</td>
+                </tr>
+                <tr>
+                    <td>Vire</td>
+                    <td>Prajapati</td>
+                    <td>4</td>
+                    <td>14</td>
+                    <td>Mumbai</td>
+                </tr>
+                <tr>
+                    <td>Arjun</td>
+                    <td>Singh</td>
+                    <td>15</td>
+                    <td>8</td>
+                    <td>UP</td>
+                </tr>
+                <tr>
+                    <td>Yog</td>
+                    <td>Yadav</td>
+                    <td>33</td>
+                    <td>14</td>
+                    <td>Maharshtra</td>
+                </tr>
+                <tr>
+                    <td>Rohit</td>
+                    <td>Azaz</td>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>Pune</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>

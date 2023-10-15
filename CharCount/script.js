@@ -23,7 +23,6 @@ document.addEventListener('keydown', (event)=>{
     if(event.key =='Enter'){
        count=count+1;
     }
-    
    })
   para.textContent=Math.floor(count/enterdText.length);
 })
