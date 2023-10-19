@@ -73,6 +73,7 @@ box-shadow: 5px 5px 5px black ;
 }
 thead td{
     background-color: #176B87; 
+    font-weight: bold;
 }
 .bg_img>img{
     position: absolute;
