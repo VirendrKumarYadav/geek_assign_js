@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+nav h2,button{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+button{
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+body{
+    background-color: #0d6efd0d;
+}
+/* header */
+header section,h1{
+text-align: center;
+margin-top: 20px;
+}
+h1{
+    font-size: 50px;
+}
+header section h1 ,p{
+    padding: 10px;
+}
+.serach_head{
+    font-size: 50px;
+}
+/* main */
+main{
+    text-align: center;
+}
+/* footer */
+footer{
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+/* main */
+
+.search_container input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 20%;
+}
+.search_container button{
+    margin: 0;
+    /* border: none; */
+    margin-bottom:30px; 
+}
+
+/* 
+cards */
+.ph_itams{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+gap: 30px;
+}
+.card{
+    box-shadow: 5px 5px 5px 5px #100f23cf;
+      width: 28%;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 10px;
+}
+
+.card-body{ 
+    width: 60%;
+    text-align: center;
+}
