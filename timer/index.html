@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body style="height: 100vh; width: 100vw; background-color: rgb(25, 79, 79);">
+    <div class="container" >
+        <div>
+            <h1>Timer</h1>
+        </div>
+        <div style="font-size: larger; display: inline; margin-top: 20px; ">
+            <p id="time" >00:00:00 </p>
+            <p style="display: inline; font-size: smaller;">HH:MM:SS
+            </p>
+        </div>
+        <div style="margin-top: 20px;">
+            <button onclick="start()">Start</button>
+            <button onclick="reset()">Reset</button>
+            <button onclick="pause()">Pause</button>
+            <button onclick="start()">Play</button>
+        </div>
+    </div>
+    <script>
+        
+  let stpWatch=null;
+        let hr = 0, min = 0, sec = 0;
+        function start(){
+            stpWatch=setInterval(startStopWatch, 1000);
+        }
+      function reset(){
+        hr=0;
+        min=0;
+        sec=0;
+        document.getElementById("time").innerText = hr + " : " + min + " : " + sec;
+      }
+
+      function pause(){
+        clearInterval(stpWatch);
+      }
+
+        function startStopWatch() {
+            console.log("start buton clicked");
+            sec++;
+            if (sec == 60) {
+                min += 1;
+                sec = 0;
+            }
+
+            if (min == 60) {
+                hr += 1;
+                min = 0;
+            }
+            if (hr == 24) {
+                hr = 0;
+            }
+            document.getElementById("time").innerText = hr + " : " + min + " : " + sec;
+
+        }
+
+
+    </script>
+</body>
+
+</html>
