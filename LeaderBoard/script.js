@@ -45,7 +45,7 @@ document.querySelector('form').addEventListener('submit', (e) => {
     let dlt = document.querySelectorAll('.delete_btn');
     dlt.forEach((event) => {
         event.addEventListener('click', (btn) => {
-            console.log(btn.target);
+            // console.log(btn.target);
             let txt = btn.target;
             btn.target.parentElement.parentElement.remove();
         })
