@@ -12,6 +12,7 @@ body {
 }
 
 nav {
+    padding: 10px;
     height: 15%;
     width: 100%;
     display: flex;
@@ -178,12 +179,19 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px 10px 0px 0px;
 
 }
 .pay_btn button{
-  border: 2px solid #234567;
+  /* border: 2px solid #234567; */
   width: 95%;
   background-color: #4285F4;
   color: white;
   font-size: large;
+}
+.circle{
+  border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: #4285F4;
 }
