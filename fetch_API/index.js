@@ -1,6 +1,6 @@
 async function api() {
     let data=await fetch('https://api.github.com/users/VirendrakumarYadav');
-    =data.json();
+   let datat =data.json();
 //   data.array.forEach(element => {
     
 //   });ch(element => {
