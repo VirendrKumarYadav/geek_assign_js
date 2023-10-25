@@ -128,28 +128,32 @@ input {
 
 button {
     height: 40px;
-    width: 60px;
-    background-color: #6b6960;
-    color: antiquewhite;
+    width: 100px;
+    background-color: white;
+    color: black;
     border: none;
-    box-shadow: 2px 3px 1px 1px #456789;
+    /* box-shadow: 2px 3px 1px 1px #456789; */
+    border-radius: 10px;
 }
 
 .buttons div {
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 10px;
     margin-bottom: 30px;
 }
 
 .next {
     position: absolute;
     z-index: 6;
-    top: 36%;
+    top: 40%;
     right: 40%;
-    background-color: rgb(36, 36, 224);
+    background-color: rgba(53, 53, 193, 0.779);
     color: white;
     border-radius: 50%;
     width: 30px;
     text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
