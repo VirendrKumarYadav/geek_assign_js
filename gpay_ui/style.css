@@ -104,7 +104,10 @@ input {
 }
 
 .note {
-    margin-left: 30%;
+    /* margin-left: 30%; */
+    background-color: #dddfd1e2;
+    text-align: center;
+    border-radius: 10px;
 }
 
 .mainContainer {
@@ -148,7 +151,7 @@ button {
     z-index: 6;
     top: 40%;
     right: 40%;
-    background-color: rgba(53, 53, 193, 0.779);
+   
     color: white;
     border-radius: 50%;
     width: 30px;
@@ -156,4 +159,31 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.next button{
+    width: 30px;
+    height: 30px;
+    background-color:#4285F4;
+    border-radius: 100%;
+    color: white;
+}
+
+/* pay html */
+
+.pay_btn{
+    margin-top:240px;
+    height: 30%;
+    width: 100%;
+    border: 2px solid #6b6960;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pay_btn button{
+  border: 2px solid #234567;
+  width: 95%;
+  background-color: #4285F4;
+  color: white;
+  font-size: large;
 }
