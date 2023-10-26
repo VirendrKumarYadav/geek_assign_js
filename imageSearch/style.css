@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* height: 100vh;
+    width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(132, 148, 149, 0.729);
+}
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+form{
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+form > input, button{
+    padding: 15px;
+}
+#search-input{
+    width: 70%;
+
+}
+.search-results{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#show-more-button{
+    margin: 20px;
+}

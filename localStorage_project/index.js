@@ -13,15 +13,15 @@ let uiName="";
 name.addEventListener('input', ()=>{
     uiName=name.value;
     console.log(uiName);
+    setAndGetValue();
 })
 
 
-// function setAndGetValue(){
-   
-//     setString("Name", uiName);
-//     console.log(getString("Name"));
-// }
-// setAndGetValue();
+function setAndGetValue(){
+    setString("Name", uiName);
+    console.log(getString("Name"));
+}
+
 
 
 submit.addEventListener('click', ()=>{
