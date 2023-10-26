@@ -9,4 +9,4 @@ async function getJoke(){
 
 } 
 
-getJoke();
+getJoke(); 

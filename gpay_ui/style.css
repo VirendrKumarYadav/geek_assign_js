@@ -181,6 +181,14 @@ button {
     align-items: center;
     border-radius: 10px 10px 0px 0px;
 }
+.pay_btn a{
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
 .pay_btn button{
   /* border: 2px solid #234567; */
 
