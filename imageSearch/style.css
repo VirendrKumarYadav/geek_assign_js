@@ -17,6 +17,11 @@ img{
     height: 300px;
     width: 300px;
     border-radius: 10px;
+    margin-top: 30%;
+    /* transform: rotate(50deg); */
+}
+img:hover{
+    transform: rotate(60deg);
 }
 form{
     width: 80%;
@@ -28,16 +33,17 @@ form{
 form > input, button{
     padding: 15px;
 }
-#search-input{
+#search-input{  
     width: 70%;
 
 }
 .search-results{
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 30%s;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 #show-more-button{
     margin: 20px;
