@@ -15,7 +15,7 @@
 
 body {
     margin: 2%;
-    background-color: var(--bg_darkMode_color);
+    background-color: var(--bg_color);
 }
 
 nav {
@@ -24,6 +24,7 @@ nav {
     height: 20%;
     display: flex;
     justify-content: center;
+    
 }
 
 nav>.continer {
@@ -34,6 +35,7 @@ nav>.continer {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.829);
 }
 
 .logo,
@@ -41,7 +43,12 @@ nav>.continer {
     display: flex;
     gap: 10px;
 }
-
+.signin_btn button{
+    font-weight: bold;
+   background-color: black;
+   color: white;
+   box-shadow: 2px 2px 2px 2px black;
+}
 nav button {
     padding: 10px;
     border-radius: 10px;
@@ -174,6 +181,11 @@ aside {
     padding: 20px;
 }
 
+
+.category-item:hover{
+  color: rgb(31, 31, 233);
+}
+
 .sidebar__categories {
     height: 40vh;
     width: 20vw;
@@ -194,8 +206,7 @@ aside {
     border: 2px solid #000000;
     border-radius: 10px;
     /* background-color: linear-gradient( blue white); */
-    background-image: linear-gradient(red, yellow);
-
+    background-image: linear-gradient(rgb(117, 59, 59), rgb(135, 135, 49));
     overflow-y: scroll;
 }
 
@@ -214,13 +225,16 @@ main {
     margin: 20px;
     height: 95%;
     width: 70vw;
-    border: 2px solid #000000;
+    /* border: 2px solid #000000; */
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .book-item {
     height: 220px;
     width: 200px;
+    display: flex;
+    justify-content: center;
 }
 
 .book-item>img {
@@ -228,25 +242,32 @@ main {
     width: 100%;
     border: 4px solid #455666;
     border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.627);
 }
+
 /* 
 list main */
-.rowList{
+.rowList {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.rowList-image{
+
+.rowList-image {
     display: flex;
     flex-direction: row;
     gap: 5%;
-   padding: 10px;
+    padding: 10px;
 }
 
-.book-item-main{
+.book-item-main {
     height: 300px;
     width: 300px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
 }
 
 .book-item-main>img {
@@ -255,13 +276,34 @@ list main */
     border: 4px solid #455666;
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.627);
+    cursor: pointer;
+
 }
-h2{
+
+h2 {
     background: #b8aeae;
     padding: 20px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.627);
     border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.image_container{
+
+.image_container {
     margin: 2%;
+}
+
+/* title */
+
+.title {
+    width: 25%;
+    position: absolute;
+    z-index: 33;
+    text-align: center;
+    background-color: yellowgreen;padding: 40px;
+    display: none;
+}
+
+.book-item-main:hover{
+   display: block;
 }
