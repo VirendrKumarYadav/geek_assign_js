@@ -24,7 +24,7 @@ nav {
     height: 20%;
     display: flex;
     justify-content: center;
-    
+
 }
 
 nav>.continer {
@@ -43,12 +43,14 @@ nav>.continer {
     display: flex;
     gap: 10px;
 }
-.signin_btn button{
+
+.signin_btn button {
     font-weight: bold;
-   background-color: black;
-   color: white;
-   box-shadow: 2px 2px 2px 2px black;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 2px 2px black;
 }
+
 nav button {
     padding: 10px;
     border-radius: 10px;
@@ -182,8 +184,8 @@ aside {
 }
 
 
-.category-item:hover{
-  color: rgb(31, 31, 233);
+.category-item:hover {
+    color: rgb(31, 31, 233);
 }
 
 .sidebar__categories {
@@ -215,7 +217,7 @@ aside {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
-    overflow: hidden;
+    overflow: visible;
     padding: 10px;
     justify-content: center;
     align-items: center;
@@ -235,14 +237,21 @@ main {
     width: 200px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
-
 .book-item>img {
     height: 100%;
     width: 100%;
     border: 4px solid #455666;
     border-radius: 10px;
     cursor: pointer;
+}
+.book-item>img:hover{
+    /* transform: rotateY(180deg); */
+    transform: ranslateZ(50px) ;
+    transition: 2s ease-in-out;
+    z-index: 5;
+    
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.627);
 }
 
@@ -268,6 +277,7 @@ list main */
     display: flex;
     justify-content: center;
     /* align-items: center; */
+    flex-direction: column;
 }
 
 .book-item-main>img {
@@ -279,7 +289,12 @@ list main */
     cursor: pointer;
 
 }
-
+.book-item-main>img:hover{
+    transform: rotateY(180deg);
+    transition: 2s ease-in-out;
+    z-index: 5;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.627);
+}
 h2 {
     background: #b8aeae;
     padding: 20px;
@@ -290,20 +305,22 @@ h2 {
 }
 
 .image_container {
-    margin: 2%;
+    /* margin: 1%; */
 }
 
 /* title */
 
 .title {
-    width: 25%;
-    position: absolute;
-    z-index: 33;
+    font-size: 15px;
+    z-index: 1;
     text-align: center;
-    background-color: yellowgreen;padding: 40px;
-    display: none;
+    color: #10dae8;
 }
 
-.book-item-main:hover{
-   display: block;
+
+.book-item-main:hover {
+    
+}
+.author{
+    text-align: center;
 }

@@ -31,7 +31,7 @@ async function getAllBooks() {
             let div = document.createElement('div');
             div.classList.add('book-item');
             div.innerHTML = ` <img src="${element.books[index].book_image}" alt="">
-           <p class='title'>${element.books[index].title}</p>`;
+           <h3 class='title'>${element.books[index].title}</h3>`;
             main_cont.appendChild(div);
         }
     }
@@ -64,12 +64,13 @@ async function getMainData() {
             div.classList.add('book-item-main');
             
             div.innerHTML = ` <img src="${element.books[index].book_image}" alt="">
-            <p class='title'>${element.books[index].title}</p>`;
+            <h3 class='title'>${element.books[index].title}</h3>
+            <p class="author"><i>${element.books[index].author}</i></p>`;
+
             head_1.appendChild(div);
             head.appendChild(head_1);
         }
     }
- 
 }
 getMainData();
 images=document.querySelectorAll('.book-item-main');
@@ -81,7 +82,7 @@ console.log(images);
 //         console.log(al.parentNode.className);
 //          title.style.display='block';
 //     });
-   
+
 // });
 
 // theme 
@@ -91,6 +92,7 @@ let nav_cont=document.querySelector('nav .continer');
 let firstViewHight=document.querySelector('.firstViewHight');
 let book_sh_main=document.querySelector('.book-item-main img');
 let book_sh=document.querySelector('.book-item img');
+
 tog.addEventListener('click',(e)=>{
  let theme=document.querySelector('input[type="checkbox"]');
     if(theme.checked==true){
